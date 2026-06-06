@@ -1,0 +1,10 @@
+# Python 3.12 required (matches Kaggle runtime)
+gymnasium==0.29.1
+numpy<2.0          # CRITICAL: CyberBattleSim breaks on NumPy 2.x (see thesis §3.7 Challenge 2)
+torch>=2.0
+scipy
+matplotlib
+networkx
+pyyaml
+boolean.py
+# CyberBattleSim is NOT on PyPI — install separately (see README)

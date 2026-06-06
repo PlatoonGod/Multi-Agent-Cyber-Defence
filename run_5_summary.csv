@@ -1,0 +1,7 @@
+run,condition,label,mean_reward,std_reward,mean_compromised,std_compromised,mean_steps,std_steps,mean_ttfc,std_ttfc
+5,no_defender,No Defender,251.972,82.3053,2.822,0.6777,200.0,0.0,42.89,35.14
+5,centralised,Centralised Defender,244.81,83.0363,1.858,0.7368,200.0,0.0,39.43,34.64
+5,decentralised_nocomms,Decentralised (no alerts),240.042,78.5385,1.866,0.7022,200.0,0.0,39.05,32.2
+5,decentralised_cooperative,Decentralised (cooperative),234.834,83.0041,1.892,0.7081,200.0,0.0,42.39,36.84
+5,decentralised_competitive,Decentralised (competitive),243.414,79.6241,1.864,0.706,200.0,0.0,38.27,32.41
+5,rl_defender,RL Defender (DQN),211.312,76.8366,1.526,0.6214,200.0,0.0,47.5,42.21
